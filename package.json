@@ -61,7 +61,7 @@
     "@testing-library/user-event": "^14.6.1",
     "@vitejs/plugin-react": "^4.3.3",
     "@vitest/ui": "^2.1.4",
-    "eslint": "^9.13.0",
+    "eslint": "^10.3.0",
     "eslint-plugin-react": "^7.37.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "globals": "^15.11.0",
