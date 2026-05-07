@@ -1,0 +1,78 @@
+{
+  "name": "architect",
+  "version": "0.5.0-dev",
+  "description": "Open-source web app for designing project specifications that AI coding agents consume before implementation.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Hesper Labs",
+  "homepage": "https://github.com/Hesper-Labs/architect#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hesper-Labs/architect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hesper-Labs/architect/issues"
+  },
+  "keywords": [
+    "ai",
+    "claude",
+    "claude-code",
+    "spec",
+    "specification",
+    "architecture",
+    "design",
+    "diagrams",
+    "mermaid",
+    "agents"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "screenshots": "node scripts/screenshots.mjs",
+    "check": "npm run lint && npm run format:check && npm test && npm run build",
+    "prepare": "husky || true"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,css,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@playwright/test": "^1.59.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "@vitest/ui": "^2.1.4",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "globals": "^15.11.0",
+    "husky": "^9.1.6",
+    "jsdom": "^25.0.1",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+package-lock.json
+*.min.css
+*.min.js
+public/
+CHANGELOG.md
