@@ -220,6 +220,10 @@ The `StorageAdapter` interface in [src/lib/storage/](src/lib/storage/) is built 
 
 PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). By participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md). Security issues go through the [private disclosure process](SECURITY.md).
 
+## Ecosystem
+
+- [MySpec](https://myspec.dev?utm_source=github&utm_medium=referral&utm_campaign=hesper-architect): Collaborative web-based PRD and architecture specification authoring for agentic development.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
